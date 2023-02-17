@@ -1,7 +1,8 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const authRoute = require("./nodes/auth.js")    
+const authRoute = require("./nodes/auth.js");    
+const postRoute = require("./nodes/posts.js");  
 
 dotenv.config();
 
@@ -20,8 +21,14 @@ mongoose
     })
     .catch(err => console.log(err));
 
-app.use("/api/auth", authRoute);
 
+const upload = multer({ storage: storage });
+app.post("/api/upload", upload.single("file"), (req, res) => {
+  res.status(200).json("File has been uploaded");
+});
+
+app.use("/api/auth", authRoute);
+app.use("/api/posts", postRoute);
 
 app.listen("5001", () => {
     console.log("Backend is running");
