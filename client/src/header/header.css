@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+
+.top{
+    max-width: 100%;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    margin-top: 30px;
+    margin-left: 120px;    
+    display: flex;
+}
+
+.logo{
+    flex: 3;
+    cursor: pointer;
+}
+
+.navBar{
+    flex: 6;
+    color: white
+}
+
+.topList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.topListItem{
+    cursor: pointer;
+}
+
