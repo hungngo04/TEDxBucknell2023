@@ -7,9 +7,9 @@ router.post("/", async (req, res) => {
     const newPost = new Post(req.body);
     try {
         const savedPost = await newPost.save();
-        res.statusCode(200).json(savedPost); 
+        res.status(200).json(savedPost); 
     } catch(err) {
-        res.statusCode(500).json(err);
+        res.status(500).json(err);
     }
 }); 
 
@@ -17,7 +17,7 @@ router.post("/", async (req, res) => {
 router.put("/:id", async (req, res) => {
     try {
         const post = await Post.findById(req.params.id);
-        if (post.username == req.body.username) {
+        if (post.username === req.body.username) {
             try {
                 const updatedPost = await Post.findByIdAndUpdate(
                     req.params.id, 
