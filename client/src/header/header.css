@@ -1,11 +1,11 @@
-* {
+/* * {
     margin: 0;
     background-color: black;
-}
+    max-width: 100%;
+} */
 
 .top{
-    max-width: 100%;
-    height: 50px;
+    height: 100px;
     background-color: black;
     position: sticky;
     margin-top: 30px;
