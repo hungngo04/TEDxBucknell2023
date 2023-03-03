@@ -1,0 +1,90 @@
+/* * {
+    margin: 0;
+    background-color:black;
+} */
+
+.bottom{
+    background-color: #28282f;
+    margin: 0;
+    height: 500px;
+}
+
+.bottomLogo{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    width: 50%;
+}
+
+.tedLicense{
+    color: white;
+    margin-top: 50px;
+    margin-left: 65px;
+
+}
+
+.footerTitles{
+    margin-left: 65px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.footerTitle{ 
+    color: red;
+    flex: 1;
+}
+
+.footerBody{
+    margin-left: 65px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+
+.information{
+    flex: 1;
+}
+
+.infoItem{
+    margin-top: 20px;
+    color: white;
+}
+
+.contact{
+    flex: 1;
+}
+
+.socials{
+    flex: 1;
+}
+
+.infoItemsIcons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.infoItemIcon{
+    display: flex;
+    
+}
+
+.line{
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
