@@ -1,7 +1,7 @@
-import Header from "./header/Header";
-import Intro from "./intro/Intro";
-import PrevTalk from "./prevTalk/PrevTalk";
-import Footer from "./footer/Footer";
+import Header from "./components/header/Header";
+import Intro from "./pages/homepage/intro/Intro";
+import PrevTalk from "./pages/homepage/prevTalk/PrevTalk";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
