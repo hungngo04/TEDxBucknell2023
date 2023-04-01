@@ -1,6 +1,11 @@
 import React from 'react'
 import './header.css'
 import logo from './img/logo-white.png' 
+import {
+  Link
+} from "react-router-dom";
+import Homepage from '../../pages/homepage/Homepage';
+import About from '../../pages/about/About';
 
 function Header() {
   return (
@@ -10,12 +15,12 @@ function Header() {
         </div>
         <div className="navBar">
             <ul className='topList'>
-                <li className='topListItem'>Home</li>
-                <li className='topListItem'>About</li>
-                <li className='topListItem'>Watch</li>
-                <li className='topListItem'>Team</li>
-                <li className='topListItem'>Tickets</li>
-                <li className='topListItem'>FAQs</li>
+                <li className='topListItem'><Link to = "/" style={{textDecoration: "none",color: "white"}}>Home</Link></li>
+                <li className='topListItem'><Link to = "/about" style={{textDecoration: "none",color: "white"}}>About</Link></li>
+                <li className='topListItem'><Link to = "/watch" style={{textDecoration: "none",color: "white"}}>Watch</Link></li>
+                <li className='topListItem'><Link to = "/team" style={{textDecoration: "none",color: "white"}}>Team</Link></li>
+                <li className='topListItem'><Link to = "/tickets" style={{textDecoration: "none",color: "white"}}>Tickets</Link></li>
+                <li className='topListItem'><Link to = "/faqs" style={{textDecoration: "none",color: "white"}}>FAQs</Link></li>
             </ul>
         </div>
     </div>
