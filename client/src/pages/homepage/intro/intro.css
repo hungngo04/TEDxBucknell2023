@@ -1,0 +1,60 @@
+.intro{
+    margin-top: 200px;
+    display: flex;
+    background-color: black;
+
+}
+
+.introLeft{
+    flex: 1;
+    margin-left: 120px;
+}
+
+.date span{
+    color: red;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.introTitle{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.introTextContent{
+    color: white;
+    font-size: 100;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 100;
+}
+
+.leftBtn{
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.rightBtn{
+    color: red;
+    padding: 10px;
+    width: 120px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: black;
+}
+
+
+.introRight{
+    flex: 1;
+}
+
+.imgRight{
+    width: 50%;
+    margin-left: 200px;
+}
