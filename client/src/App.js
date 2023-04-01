@@ -1,21 +1,9 @@
-import Header from "./components/header/Header";
-import Intro from "./pages/homepage/intro/Intro";
-import PrevTalk from "./pages/homepage/prevTalk/PrevTalk";
-import Footer from "./components/footer/Footer";
-import FAQs from "./pages/faq/FAQs.jsx";
+import Homepage from "./pages/homepage/Homepage";
 
 function App() {
   return (
-    <div className="App">
-      <homepage>
-        <Header></Header>
-        <Intro></Intro>
-        <PrevTalk></PrevTalk>
-        <Footer></Footer>
-      </homepage>
-      {/* <Header></Header>
-      <FAQs></FAQs>
-      <Footer></Footer> */}
+    <div className="Home_page">
+      <Homepage></Homepage>
     </div>
   );
 }
