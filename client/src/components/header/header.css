@@ -32,6 +32,10 @@
     margin-top: 30px;
 }
 
+.topList li::hover {
+    color: red;
+}
+
 .topListItem{
     cursor: pointer;
 }
