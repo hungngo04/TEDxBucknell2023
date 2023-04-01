@@ -7,15 +7,15 @@ import FAQs from "./pages/faq/FAQs.jsx";
 function App() {
   return (
     <div className="App">
-      {/* <homepage>
+      <homepage>
         <Header></Header>
         <Intro></Intro>
         <PrevTalk></PrevTalk>
         <Footer></Footer>
-      </homepage> */}
-      <Header></Header>
+      </homepage>
+      {/* <Header></Header>
       <FAQs></FAQs>
-      <Footer></Footer>
+      <Footer></Footer> */}
     </div>
   );
 }
