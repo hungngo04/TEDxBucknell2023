@@ -5,7 +5,7 @@ import {
   Link
 } from "react-router-dom";
 import Homepage from '../../pages/homepage/Homepage';
-import About from '../../pages/about/About';
+import About from '../../pages/aboutpage/AboutPage';
 
 function Header() {
   return (
