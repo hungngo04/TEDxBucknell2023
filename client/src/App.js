@@ -8,6 +8,7 @@ import {
   Routes
 } from "react-router-dom";
 import About from "./pages/aboutpage/AboutPage.jsx";
+import Watchpage from "./pages/watchpage/Watchpage.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/watch" element={<Watchpage/>}/>
       </Routes>
     </BrowserRouter>
 

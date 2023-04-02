@@ -1,0 +1,37 @@
+.videobody{
+    margin-top: 5%;
+}
+
+.videotext{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7%;
+}
+
+.videotext2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7%;
+}
+
+.videoplayer{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.vidtitle{
+    color: #EB0028;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.vidtext{
+    color: white;
+}
