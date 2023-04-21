@@ -1,14 +1,14 @@
 import About from "./abtBody/AbtBody";
 import "./aboutPage.css"
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 
 function AboutPage() {
   return (
     <div className="aboutpage">
-      {/* <Header></Header>
-      <Intro></Intro>
-      <PrevTalk></PrevTalk>
-      <Footer></Footer> */}
+      <Header></Header>
       <About></About>
+      <Footer></Footer>
     </div>
   );
 }
