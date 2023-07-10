@@ -1,2 +1,3 @@
-# TEDxBucknell2023
-A website for TEDx event at Bucknell University in 2023
+# TEDx Bucknell University
+
+A fully responsive website for TEDx Bucknell University
