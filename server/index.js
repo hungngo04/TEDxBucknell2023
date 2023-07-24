@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
-// const postRoute = require("./routes/posts");
+const postRoute = require("./routes/posts");
 // const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
@@ -24,7 +24,7 @@ mongoose
 
 app.use("/server/auth", authRoute);
 app.use("/server/users", userRoute);
-// app.use("/server/posts", postRoute);
+app.use("/server/posts", postRoute);
 // app.use("/server/categories", categoryRoute);
 
 app.listen("5001", () => {
