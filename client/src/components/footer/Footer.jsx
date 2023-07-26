@@ -1,10 +1,11 @@
 import React from 'react'
 import './footer.css'
 import logo from '../../assets/img/tedx-bu-logo-white.png' 
-import fb from './img/facebook.png'
-import ig from './img/instagram.png'
-import li from './img/linkedin.png'
-import yt from './img/youtube.png'
+
+import {FaFacebook} from 'react-icons/fa'
+import {FaInstagram} from 'react-icons/fa'
+import  {FaLinkedin} from 'react-icons/fa'
+import {FaYoutube} from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -37,16 +38,16 @@ function Footer() {
                 <div className="infoItemsIcons">
                     {/*Need to add <a> to all of these icons*/}
                     <div className="infoItemIcon">
-                        <img src={fb} alt="" />
+                        <FaFacebook color="white" fontSize="25px"/>
                     </div>
                     <div className="infoItemIcon">
-                        <img src={ig} alt="" />
+                        <FaInstagram color="white" fontSize="25px"/>
                     </div>
                     <div className="infoItemIcon">
-                        <img src={li} alt="" />
+                        <FaLinkedin color="white" fontSize="25px"/>
                     </div>
                     <div className="infoItemIcon">
-                        <img src={yt} alt="" />
+                        <FaYoutube color="white" fontSize="25px"/>
                     </div>
                 </div>
             </div>
