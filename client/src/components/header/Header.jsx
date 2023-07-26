@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import logo from './img/logo-white.png' 
+import logo from '../../assets/img/tedx-bu-logo-white.png' 
 import {
   Link
 } from "react-router-dom";

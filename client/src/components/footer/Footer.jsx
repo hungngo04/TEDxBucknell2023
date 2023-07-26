@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import logo from './img/logo-white 1.png' 
+import logo from '../../assets/img/tedx-bu-logo-white.png' 
 import fb from './img/facebook.png'
 import ig from './img/instagram.png'
 import li from './img/linkedin.png'
