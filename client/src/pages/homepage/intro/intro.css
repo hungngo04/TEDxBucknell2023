@@ -11,15 +11,16 @@
 }
 
 .date span{
-    color: red;
+    color: #EB0028;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .introTitle{
     color: white;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 800;
+    padding-top: 10px;
 }
 
 .introTextContent{
@@ -40,10 +41,10 @@
 }
 
 .rightBtn{
-    color: red;
+    color: #EB0028;
     padding: 10px;
     width: 120px;
-    border: 1px solid red;
+    border: 1px solid #EB0028;
     border-radius: 5px;
     margin-left: 20px;
     background-color: black;
@@ -54,7 +55,14 @@
     flex: 1;
 }
 
+.imgRight .container{
+    position: relative;
+}
+
 .imgRight{
-    width: 50%;
-    margin-left: 200px;
+    position: absolute;
+    width: 430px;
+    left: 950px;
+    bottom: 100px;
+
 }
