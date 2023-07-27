@@ -21,7 +21,7 @@ function Intro() {
             </div>
         </div>
         <div className="introRight">
-            <img className='imgRight' src={circle} alt="" />
+            <img className='imgRight' src={circle} alt="Home Page Image" />
         </div>
     </div>
   )
