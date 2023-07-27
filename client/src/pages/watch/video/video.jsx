@@ -1,5 +1,5 @@
 import React from 'react'
-import './videotext.css'
+import './video.css'
 
 function Videotext() {
     return (

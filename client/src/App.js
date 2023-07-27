@@ -1,4 +1,4 @@
-import Homepage from "./pages/homepage/Homepage";
+import Homepage from "./pages/home/home_page.jsx";
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,8 +7,8 @@ import {
   BrowserRouter,
   Routes
 } from "react-router-dom";
-import About from "./pages/aboutpage/AboutPage.jsx";
-import Watchpage from "./pages/watchpage/Watchpage.jsx";
+import About from "./pages/about/about_page.jsx";
+import Watchpage from "./pages/watch/watch_page.jsx";
 
 function App() {
   return (

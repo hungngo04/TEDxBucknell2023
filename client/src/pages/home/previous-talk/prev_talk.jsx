@@ -1,5 +1,5 @@
 import React from 'react'
-import './prevTalk.css'
+import './prev_talk.css'
 
 function PrevTalk() {
   return (
