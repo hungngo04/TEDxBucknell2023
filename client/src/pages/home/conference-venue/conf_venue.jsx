@@ -1,5 +1,5 @@
 import React from 'react'
-import './conferenceVenue.css';
+import './conf_venue.css';
 import CampusTheatre01 from './img/campus_theatre_1.png'
 import CampusTheatre02 from './img/campus_theatre_2.png'
 

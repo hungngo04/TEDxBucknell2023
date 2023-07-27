@@ -1,7 +1,7 @@
 import About from "./abtBody/AbtBody";
-import "./aboutPage.css"
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+import "./about_page.css"
+import Header from "../../components/header/header";
+import Footer from "../../components/footer/footer";
 
 function AboutPage() {
   return (

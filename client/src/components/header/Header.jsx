@@ -4,8 +4,8 @@ import logo from '../../assets/img/tedx-bu-logo-white.png'
 import {
   Link
 } from "react-router-dom";
-import Homepage from '../../pages/homepage/Homepage';
-import About from '../../pages/aboutpage/AboutPage';
+import Homepage from '../../pages/home/home_page';
+import About from '../../pages/about/about_page.jsx';
 
 function Header() {
   return (

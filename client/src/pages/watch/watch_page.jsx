@@ -1,7 +1,7 @@
-import Header from "../../components/header/Header";
-import Videotext from "./videotext/Videotext";
-import Footer from "../../components/footer/Footer";
-import './watchpage.css'
+import Header from "../../components/header/header";
+import Videotext from "./video/video";
+import Footer from "../../components/footer/footer";
+import './watch_page.css'
 
 
 function Watchpage() {
