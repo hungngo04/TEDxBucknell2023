@@ -13,32 +13,60 @@
 }
 
 .talks{
-    color: red;
-    font-weight: 500;
+    color: #EB0028;
+    font-weight: 600;
     font-size: 30px;
 }
 
-.photoContainer{
+.videoContainer{
     display: flex;
-    align-items: row;
-    margin-left: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.photoItem{
-    flex: 2;
+.videoItem {
+    margin: 20px;
+    text-align: center;
 }
 
-.itemTitle{
+.videoItem iframe {
+    width: 400px;
+    height: 300px;
+}
+
+.videoTitle{
     color: white;
     font-size: 15px;
     font-weight: 700;
-    margin-bottom: 10px;
-    margin-top: 10px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .speakerName{
     color: white;
     font-weight: 100;
     text-align: center;
+}
+
+.viewMoreButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.viewMoreButton :hover  {
+    color: #EB0028;
+    border: 1px solid #EB0028;
+    background-color: black;
+}
+
+.viewMoreVideos {
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
 }
