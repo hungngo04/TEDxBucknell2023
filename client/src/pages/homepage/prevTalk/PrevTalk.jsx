@@ -1,6 +1,5 @@
 import React from 'react'
 import './prevTalk.css'
-import TalkPhto from './img/talk-photo.png' 
 
 function PrevTalk() {
   return (
