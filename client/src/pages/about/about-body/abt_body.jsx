@@ -1,5 +1,5 @@
 import React from 'react'
-import './abtBody.css'
+import './abt_body.css'
 import about_banner from './img/test-image.jpeg'
 
 function About() {
