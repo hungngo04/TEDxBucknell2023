@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className="top">
         <div className="logo">
-            <img src={logo} alt="" />
+            <img src={logo} alt="TEDx Bucknell University Logo" />
         </div>
         <div className="navBar">
             <ul className='topList'>

@@ -1,4 +1,4 @@
-import About from "./abtBody/AbtBody";
+import About from "./about-body/abt_body";
 import "./about_page.css"
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";

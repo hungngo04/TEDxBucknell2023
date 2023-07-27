@@ -1,7 +1,6 @@
 .prevTalk{
     margin-top: 200px;
     background-color: black;
-    margin-bottom: 100px;
 }
 
 .title{
@@ -24,12 +23,12 @@
     flex-wrap: wrap;
 }
 
-.videoItem {
+.videoItem{
     margin: 20px;
     text-align: center;
 }
 
-.videoItem iframe {
+.videoItem iframe{
     width: 400px;
     height: 300px;
 }
@@ -49,20 +48,20 @@
     text-align: center;
 }
 
-.viewMoreButton {
+.viewMoreButton{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
 }
 
-.viewMoreButton :hover  {
+.viewMoreButton :hover{
     color: #EB0028;
     border: 1px solid #EB0028;
     background-color: black;
 }
 
-.viewMoreVideos {
+.viewMoreVideos{
     color: white;
     padding: 10px;
     width: 120px;
