@@ -8,7 +8,6 @@ A fully dynamic and responsive website for TEDx Bucknell University
 - **Hung Ngo** - *Back-end Developer*
 - **Chang Min** - *Front-end Developer*
 - **Minh Phoung** - *Back-end Developer*
-- **Omid Mohammadi** - *Front-end Developer*
 
 ### About TEDxBuckenllUniversity
 
