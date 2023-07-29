@@ -7,6 +7,7 @@ import {
 import Homepage from '../../pages/home/home_page';
 import About from '../../pages/about/about_page.jsx';
 
+// Note: We might need to adjust the nav bar in the future.
 function Header() {
   return (
     <div className="top">
