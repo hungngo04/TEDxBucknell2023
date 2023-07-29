@@ -12,6 +12,7 @@ import Watchpage from "./pages/watch/watch_page.jsx";
 
 function App() {
   return (
+    // test
     // <div className="Home_page">
     //   <Homepage></Homepage>
     // </div>
@@ -22,7 +23,6 @@ function App() {
         <Route path="/watch" element={<Watchpage/>}/>
       </Routes>
     </BrowserRouter>
-
   );
 }
 
