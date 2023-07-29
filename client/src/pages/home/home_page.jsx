@@ -1,9 +1,9 @@
-import Header from "../../components/header/Header";
+import Header from "../../components/header/header";
 import Intro from "./introduction/intro";
 import PrevTalk from "./previous-talk/prev_talk";
 import Speaker from "./speaker/speaker";
 import ConferenceVenue from "./conference-venue/conf_venue";
-import Footer from "../../components/footer/Footer";
+import Footer from "../../components/footer/footer";
 
 import './home_page.css'
 
