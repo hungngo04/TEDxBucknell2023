@@ -1,6 +1,6 @@
-import Header from "../../components/header/header";
+import Header from "../../components/header/Header";
 import Videotext from "./video/video";
-import Footer from "../../components/footer/footer";
+import Footer from "../../components/footer/Footer";
 import './watch_page.css'
 
 
