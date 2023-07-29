@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './faqs.css'
 
+// Questions and answers need to be modified.
 function FAQs() {
   return (
     <div className="faq-accordion">

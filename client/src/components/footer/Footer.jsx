@@ -2,6 +2,7 @@ import React from 'react'
 import './footer.css'
 import logo from '../../assets/img/tedx-bu-logo-white.png' 
 
+// importing react icons library
 import {FaFacebook} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
 import  {FaLinkedin} from 'react-icons/fa'
