@@ -12,7 +12,6 @@ import Watchpage from "./pages/watch/watch_page.jsx";
 
 function App() {
   return (
-    // test
     // <div className="Home_page">
     //   <Homepage></Homepage>
     // </div>
