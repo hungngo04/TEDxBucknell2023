@@ -71,4 +71,4 @@ Please create an [issue](https://github.com/hungngo04/TEDxBucknell2023/issues/ne
 
 ## Contact :mailbox_with_mail:
 
-For any inquiries or feedback, please feel free to reach out to us through [nl020@bucknell.edu](nl020@bucknell.edu).
+For any inquiries or feedback, please feel free to reach out to [Nolan Lwin - Website Manager](nl020@bucknell.edu) or the TEDx Bucknell University Website Development team.
