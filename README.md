@@ -67,7 +67,7 @@ The project is available as open source under the terms of the [MIT License](htt
 
 ## Troubleshooting :hammer_and_wrench:
 
-Please read our [TEDx Bucknell University Code_Of_Conduct](CODE_OF_CONDUCT.md) and [TEDx Bucknell University Contributing](CONTRIBUTING.md) before creating a new issue.
+Please read our [TEDx Bucknell University Code Of Conduct](CODE_OF_CONDUCT.md) and [TEDx Bucknell University Contributing](CONTRIBUTING.md) before creating a new issue.
 
 ## Contact :mailbox_with_mail:
 
