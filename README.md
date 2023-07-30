@@ -4,10 +4,10 @@ A fully dynamic and responsive website for TEDx Bucknell University
 
 # Team Members :man_technologist:
 
-- **Nolan Lwin** - *Website Manager*
-- **Hung Ngo** - *Back-end Developer*
-- **Chang Min** - *Front-end Developer*
-- **Minh Phoung** - *Back-end Developer*
+- [**Nolan Lwin**](https://github.com/i-am-nolan25) - *Website Manager*
+- [**Hung Ngo**](https://github.com/hungngo04) - *Back-end Developer*
+- [**Chang Min**](https://github.com/changminbark) - *Front-end Developer*
+- [**Minh Phoung**](https://github.com/ctmphuongg) - *Back-end Developer*
 
 # Features :rocket:
 
@@ -60,3 +60,15 @@ TEDx is the world’s largest grassroots network for discovering and spreading i
 TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 30 years ago, TED has grown to support its mission with multiple initiatives. The two annual TED Conferences invite the world’s leading thinkers and doers to speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com.
 
 The annual TED Conference takes place each spring in Vancouver, British Columbia, along with the TEDActive simulcast event in nearby Whistler. The annual TEDGlobal conference will be held this October in Rio de Janeiro, Brazil. TED‘s media initiatives include TED.com, where new TED Talks are posted daily; the Open Translation Project, which provides subtitles and interactive transcripts as well as translations from volunteers worldwide; the educational initiative TED-Ed. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world get help translating their wishes into action; TEDx, which supports individuals or groups in hosting local, self- organized TED-style events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to amplify the impact of their remarkable projects and activities.
+
+# License :page_facing_up:
+
+The project is available as open source under the terms of the [MIT License](https://github.com/hungngo04/TEDxBucknell2023/blob/main/LICENSE). 
+
+# Troubleshooting :hammer_and_wrench:
+
+Please create an [issue](https://github.com/hungngo04/TEDxBucknell2023/issues/new).
+
+# Contact :mailbox_with_mail:
+
+For any inquiries or feedback, please feel free to reach out to us through [nl020@bucknell.edu](nl020@bucknell.edu).
