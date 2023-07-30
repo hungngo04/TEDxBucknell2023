@@ -1,4 +1,4 @@
-# Contributor Covenant Code of Conduct
+# Code of Conduct for TEDx Bucknell University
 
 ## Our Pledge
 
