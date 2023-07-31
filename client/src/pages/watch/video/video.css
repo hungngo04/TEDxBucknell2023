@@ -35,3 +35,31 @@
 .vidtext{
     color: white;
 }
+
+/* Mobile Screens */
+@media only screen and (max-width: 672px) {
+    .videotext{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+    
+    .videotext2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 5rem;
+    }
+
+    .videoplayer{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: auto;
+    }
+
+    .text{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 0;
+        width: auto;
+    }
+  }
