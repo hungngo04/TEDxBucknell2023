@@ -5,11 +5,6 @@
     width: 100%;
 }
 
-/* .AboutBanner{
-    margin-left: 100px;
-    margin-right: 100px;
-} */
-
 .banner_img{
     max-width: 100%;
 }
@@ -70,4 +65,24 @@
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 672px)    {
+
+}
+
+/* Tablets and Small Laptops */
+@media screen and (min-width: 672px) and (max-width: 990px)    {
+
+}
+
+/* Desktops and Large Laptops */
+@media screen and (min-width: 990px) and (max-width: 1296px)    {  
+
+}
+
+/* Large Desktops and High-resolution Displays */
+@media screen and (min-width: 1296px)    {
+
 }

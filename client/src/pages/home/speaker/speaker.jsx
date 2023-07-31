@@ -11,7 +11,7 @@ function Speaker()  {
     return  (
         <div className="speaker">
 
-            <div className="title">Our <span className='speakers'>Speakers</span></div>
+            <div className="speakerTitle">Our <span className='speakers'>Speakers</span></div>
 
             <div className='speakerContainer'>
                 <div className='speakerItem'>

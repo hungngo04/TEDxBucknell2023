@@ -185,7 +185,7 @@
 /* Large Desktops and High-resolution Displays */
 @media screen and (min-width: 1296px)    {
     .intro    {
-        margin-top: 10%;
+        margin-top: 12%;
     }
 
     .date Span    {

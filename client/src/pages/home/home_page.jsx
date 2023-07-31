@@ -11,10 +11,10 @@ import './home_page.css'
 function Homepage() {
     return (
       <div className="homepage">
-          {/* <Header></Header> */}
+          <Header></Header>
           <Intro></Intro>
-          {/* <PrevTalk></PrevTalk>
-          <Speaker></Speaker>
+          <PrevTalk></PrevTalk>
+          {/* <Speaker></Speaker>
           <ConferenceVenue></ConferenceVenue>
           <ShareStory></ShareStory>
           <Footer></Footer> */}
