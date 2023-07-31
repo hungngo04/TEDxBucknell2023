@@ -11,13 +11,13 @@ import './home_page.css'
 function Homepage() {
     return (
       <div className="homepage">
-          <Header></Header>
+          {/* <Header></Header> */}
           <Intro></Intro>
-          <PrevTalk></PrevTalk>
+          {/* <PrevTalk></PrevTalk>
           <Speaker></Speaker>
           <ConferenceVenue></ConferenceVenue>
           <ShareStory></ShareStory>
-          <Footer></Footer>
+          <Footer></Footer> */}
       </div>
     );
   }
