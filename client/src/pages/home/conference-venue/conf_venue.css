@@ -19,12 +19,12 @@
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 150px;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 .titleConference {
     text-align: left;
-    color: red;
+    color: #EB0028;
     font-size: 18px;
     font-weight: 500;
 }
