@@ -79,7 +79,7 @@
 }
 
 /* Mobile Phones */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 672px) {
     .logo img {
         width: 40%;
         height: auto;
@@ -100,7 +100,7 @@
         flex-direction: column;
         width: 60%;
         height: calc(100vh - 77px);
-        background-color: rgba(40,40,47, 1);
+        background-color: rgba(40,40,47);
         border-top: 1px solid;
         display: none;
         margin-top: 10%;
@@ -125,7 +125,7 @@
 }
 
 /* Tablets and Small Laptops */
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 672px) and (max-width: 990px) {
     .logo img {
         width: 55%;
         height: auto;
@@ -136,12 +136,12 @@
     }
 
     .topListItemLink {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
 
 /* Desktops and Large Laptops */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 990px) and (max-width: 1296px) {
     .logo img {
         width: 45%;
         height: auto;
@@ -152,12 +152,12 @@
     }
 
     .topListItemLink {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
  
 /* Large Desktops and High-resolution Displays */
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1296px) {
     .logo img {
         width: 30%;
         height: auto;

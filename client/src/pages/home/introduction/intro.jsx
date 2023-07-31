@@ -16,8 +16,8 @@ function Intro() {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam minima quod perspiciatis enim libero unde doloremque, dolorum reprehenderit earum consequatur facere sunt, voluptatum inventore, saepe adipisci laudantium porro numquam. Ut.
             </div>
             <div className="introBtn">
-                <button className='leftBtn'>Get Tickets</button>
-                <button className='rightBtn'>Learn more</button>
+                <button className='leftBtn'>GET TICKETS</button>
+                <button className='rightBtn'>LEARN MORE</button>
             </div>
         </div>
         <div className="introRight">
