@@ -35,3 +35,23 @@
 .vidtext{
     color: white;
 }
+
+/* Mobile Phones */
+@media screen and (max-width: 672px)    {
+
+}
+
+/* Tablets and Small Laptops */
+@media screen and (min-width: 672px) and (max-width: 990px)    {
+
+}
+
+/* Desktops and Large Laptops */
+@media screen and (min-width: 990px) and (max-width: 1296px)    {  
+
+}
+
+/* Large Desktops and High-resolution Displays */
+@media screen and (min-width: 1296px)    {
+
+}
