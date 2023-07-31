@@ -63,7 +63,7 @@
     position: sticky;
     width: 60%;
     left: 65%;
-    margin-top: -15%;
+    margin-top: -10%;
 }
 
 /* Mobile Phones */
@@ -189,26 +189,26 @@
     }
 
     .date Span    {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .introTitle     {
-        font-size: 4rem;
+        font-size: 2rem;
     }
     
     .introTextContent    {
-        font-size: 3rem;
+        font-size: 1rem;
     }
 
     .leftBtn    {
         width: 20%;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     .rightBtn    {
         margin-left: 3%;
         width: 20%;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .introRight    {
@@ -217,7 +217,7 @@
     }
 
     .imgRight   {
-        width: 65%;
+        width: 60%;
         left: 65%;
         margin-top: -10%;
     }
