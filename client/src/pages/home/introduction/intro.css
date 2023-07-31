@@ -1,68 +1,224 @@
-.intro{
-    margin-top: 200px;
+.intro    { 
+    margin-top: 10%;
     display: flex;
     background-color: black;
-
 }
 
-.introLeft{
+.introLeft    {
     flex: 1;
-    margin-left: 120px;
+    margin-left: 6%;
 }
 
-.date span{
+.date span    {
     color: #EB0028;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
-.introTitle{
+.introTitle     {
     color: white;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 800;
-    padding-top: 10px;
+    padding-top: 2%;
 }
 
-.introTextContent{
+.introTextContent    {
     color: white;
-    font-size: 100;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-size: 1rem;
+    padding-top: 5%;
+    padding-bottom: 8%;
     font-weight: 100;
 }
 
-.leftBtn{
-    color: white;
-    padding: 10px;
-    width: 120px;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: black;
-}
-
-.rightBtn{
-    color: #EB0028;
-    padding: 10px;
-    width: 120px;
-    border: 1px solid #EB0028;
-    border-radius: 5px;
-    margin-left: 20px;
-    background-color: black;
-}
-
-
-.introRight{
+.rightBtn    {
     flex: 1;
 }
 
-.imgRight .container{
+.leftBtn    {
+    color: white;
+    padding: 2%;
+    width: 20%;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    background-color: black;
+    font-size: 1rem;
+}
+
+.rightBtn    {
+    color: #EB0028;
+    padding: 2%;
+    width: 20%;
+    border: 0.1rem solid #EB0028;
+    border-radius: 0.5rem;
+    margin-left: 2%;
+    background-color: black;
+    font-size: 1rem;
+}
+
+.imgRight .container    {
     position: relative;
 }
 
-.imgRight{
-    position: absolute;
-    width: 430px;
-    left: 950px;
-    bottom: 100px;
+.imgRight   {
+    position: sticky;
+    width: 60%;
+    left: 65%;
+    margin-top: -15%;
+}
 
+/* Mobile Phones */
+@media screen and (max-width: 672px)    {
+    .intro    {
+        margin-top: 10%;
+    }
+
+    .date Span    {
+        font-size: 0.8rem;
+    }
+
+    .introTitle     {
+        font-size: 1.5rem;
+    }
+    
+    .introTextContent    {
+        font-size: 0.8rem;
+    }
+    
+    .leftBtn    {
+        width: 30%;
+        font-size: 0.7rem;
+    }
+    
+    .rightBtn    {
+        margin-left: 3%;
+        width: 30%;
+        font-size: 0.7rem;
+    }
+
+    .introLeft    {
+        margin-right: 6%;
+    }
+
+    .introRight    {
+        display: none;
+    }
+}
+
+/* Tablets and Small Laptops */
+@media screen and (min-width: 672px) and (max-width: 990px)    {
+    .intro    {
+        margin-top: 8%;
+    }
+
+    .introTitle     {
+        font-size: 1.5rem;
+    }
+    
+    .introTextContent    {
+        font-size: 0.8rem;
+    }
+
+    .leftBtn    {
+        width: 40%;
+        font-size: 1rem;
+    }
+    
+    .rightBtn    {
+        margin-left: 6%;
+        width: 40%;
+        font-size: 1rem;
+    }
+
+    .introRight    {
+        width: 40%;
+        margin-right: 6%;
+    }
+
+    .imgRight   {
+        width: 75%;
+        left: 65%;
+        margin-top: -5%;
+    }
+}
+
+/* Desktops and Large Laptops */
+@media screen and (min-width: 990px) and (max-width: 1296px)    {  
+    .intro    {
+        margin-top: 10%;
+    }
+
+    .date Span    {
+        font-size: 1.3rem;
+    }
+
+    .introTitle     {
+        font-size: 2rem;
+    }
+    
+    .introTextContent    {
+        font-size: 1rem;
+    }
+
+    .leftBtn    {
+        width: 30%;
+        font-size: 1rem;
+    }
+    
+    .rightBtn    {
+        margin-left: 6%;
+        width: 30%;
+        font-size: 1rem;
+    }
+
+    .introRight    {
+        width: 40%;
+        margin-right: 6%;
+    }
+
+    .imgRight   {
+        width: 75%;
+        left: 65%;
+        margin-top: -8%;
+    }
+}
+
+/* Large Desktops and High-resolution Displays */
+@media screen and (min-width: 1296px)    {
+    .intro    {
+        margin-top: 10%;
+    }
+
+    .date Span    {
+        font-size: 2rem;
+    }
+
+    .introTitle     {
+        font-size: 4rem;
+    }
+    
+    .introTextContent    {
+        font-size: 3rem;
+    }
+
+    .leftBtn    {
+        width: 20%;
+        font-size: 1.5rem;
+    }
+    
+    .rightBtn    {
+        margin-left: 3%;
+        width: 20%;
+        font-size: 1.5rem;
+    }
+
+    .introRight    {
+        width: 40%;
+        margin-right: 4%;
+    }
+
+    .imgRight   {
+        width: 65%;
+        left: 65%;
+        margin-top: -10%;
+    }
 }
