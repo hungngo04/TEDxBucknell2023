@@ -1,3 +1,5 @@
+/* NEED TO CREATE MORE RESOLUTIONS AND EDIT */
+
 .videobody{
     margin-top: 5%;
 }
@@ -26,6 +28,7 @@
     width: 50%;
 }
 
+/* Constant for All Resolutions */
 .vidtitle{
     color: #EB0028;
     font-size: 25px;
@@ -41,7 +44,42 @@
     .videotext{
         display: flex;
         flex-direction: column;
+        margin-bottom: 7rem;
+        
+    }
+    
+    .videotext2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 7rem;
+    }
+
+    .videoplayer{
+        margin-left: 0;
+        width: auto;
+    }
+
+    .text{
+        margin-left: 0;
+        margin-right: 2rem;
+        margin-top: 0.25%;
+        width: auto;
+    }
+
+    .videobody{
+        margin-top: 5%;
+        margin-left: 6%;
+        margin-right: 3%;
+    }
+  }
+
+/* Tablets */
+@media screen and (min-width: 672px) and (max-width: 990px) {
+    .videotext{
+        display: flex;
+        flex-direction: column;
         margin-bottom: 5rem;
+        
     }
     
     .videotext2{
@@ -51,15 +89,20 @@
     }
 
     .videoplayer{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0;
         width: auto;
     }
 
     .text{
-        margin-left: 2rem;
+        margin-left: 0;
         margin-right: 2rem;
-        margin-top: 0;
+        margin-top: 2%;
         width: auto;
+    }
+
+    .videobody{
+        margin-top: 5%;
+        margin-left: 6%;
+        margin-right: 3%;
     }
   }
