@@ -1,18 +1,19 @@
 .navigation {
-    height: 60px;
+    height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
     position: relative;
     padding: 0.5rem 0rem;
-    margin-top: 3%;
-    background-color: blackl;
+    background-color: #28282F;
 }
 
 .logo {
     flex: 3;
     cursor: pointer;
     margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .logo img   {
@@ -49,7 +50,6 @@
 
 .navigation-menu li {
     list-style-type: none;
-    margin: 0 1rem;
 }
 
 .navigation-menu li a {
@@ -63,7 +63,7 @@
     width: 40px;
     padding: 0.5rem;
     border-radius: 50%;
-    background-color: black;
+    background-color: #28282F;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     position: absolute;
@@ -89,32 +89,38 @@
         display: block;
     }
 
+    .navigation-menu {
+        background-color: #28282F;
+    }
+
     .navigation-menu ul {
         position: absolute;
         top: 60px;
-        left: 0;
+        right: 0;
         flex-direction: column;
-        width: 100%;
+        width: 60%;
         height: calc(100vh - 77px);
-        background-color: #28282F;
+        background-color: rgba(40,40,47, 1);
         border-top: 1px solid;
         display: none;
+        margin-top: 10%;
       }
 
       .navigation-menu.expanded ul {
         display: block;
+        color: #28282F;
+        height: auto;
       }
 
       .navigation-menu li {
         text-align: center;
-        margin: 0;
         width: 100%;
       }
       .navigation-menu li a {
         padding: 1.5rem 0;
       }
       .navigation-menu li:hover {
-        background-color: #eee;
+        background-color: #28282F;
       }
 }
 
