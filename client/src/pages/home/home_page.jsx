@@ -14,8 +14,8 @@ function Homepage() {
           <Header></Header>
           <Intro></Intro>
           <PrevTalk></PrevTalk>
-          {/* <Speaker></Speaker>
-          <ConferenceVenue></ConferenceVenue>
+          <Speaker></Speaker>
+          {/* <ConferenceVenue></ConferenceVenue>
           <ShareStory></ShareStory>
           <Footer></Footer> */}
       </div>
