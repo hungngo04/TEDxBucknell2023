@@ -38,14 +38,17 @@ We utilize a variety of technologies in our *TEDx Bucknell University* project, 
 - JavaScript
 - React
 - Node.js
+- Express.js
 - MongoDB
 - npm
 - Git
+- GitHub
 - Postman
 - React Icons
 - Visual Studio Code
 - Figma
 - FigJam
+- Trello
 
 ## About TEDxBuckenllUniversity
 
