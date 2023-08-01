@@ -13,7 +13,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod risus ut pel
                 </div>
             </div>
             <div className='videotext2'>
-                <div className='text'>
+                <div className='text2'>
                     <div className='vidtitle'>Video Title</div>
                     <div className='vidtext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod risus ut pellentesque luctus. Nam efficitur porta libero. Nullam a dui non elit lacinia faucibus quis nec arcu. Mauris varius lectus velit, et tempor magna bibendum quis. Curabitur a quam metus. Integer sit amet tristique augue, nec sodales nunc. Proin at mauris ac ipsum sodales consequat eu in diam.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod risus ut pellentesque luctus. Nam efficitur porta libero. Nullam a dui non elit lacinia faucibus quis nec arcu. Mauris varius lectus velit, et tempor magna bibendum quis. Curabitur a quam metus. Integer sit amet tristique augue, nec sodales nunc. Proin at mauris ac ipsum sodales consequat eu in d</div>
@@ -29,7 +29,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod risus ut pel
                 </div>
             </div>
             <div className='videotext2'>
-                <div className='text'>
+                <div className='text2'>
                     <div className='vidtitle'>Video Title</div>
                     <div className='vidtext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod risus ut pellentesque luctus. Nam efficitur porta libero. Nullam a dui non elit lacinia faucibus quis nec arcu. Mauris varius lectus velit, et tempor magna bibendum quis. Curabitur a quam metus. Integer sit amet tristique augue, nec sodales nunc. Proin at mauris ac ipsum sodales consequat eu in diam.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod risus ut pellentesque luctus. Nam efficitur porta libero. Nullam a dui non elit lacinia faucibus quis nec arcu. Mauris varius lectus velit, et tempor magna bibendum quis. Curabitur a quam metus. Integer sit amet tristique augue, nec sodales nunc. Proin at mauris ac ipsum sodales consequat eu in d</div>
