@@ -69,6 +69,7 @@
     border: 0.1rem solid white;
     border-radius: 0.5rem;
     background-color: black;
+    font-size: 1rem;
 }
 
 /* Mobile Phones */
@@ -98,7 +99,10 @@
     }
 
     .viewMoreTalks {
-        width: 25%;
+        font-size: 0.75rem;
+        padding: 0.35rem;
+        border: 0.01rem solid white;
+        width: 30%;
     }
 }
 
