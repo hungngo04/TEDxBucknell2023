@@ -71,6 +71,12 @@
     font-size: 1rem;
 }
 
+.locationBtn:hover    {
+    background-color: black;
+    color: #EB0028;
+    border: 0.1rem solid #EB0028;
+}
+
 /* Mobile Phones */
 @media screen and (max-width: 672px)    {
     .textRight    {

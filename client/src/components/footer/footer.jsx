@@ -28,34 +28,55 @@ function Footer() {
         <div className='footerBody'>
             <div className="information">
                 <div className="infoItems">
-                    <div className="infoItem">TEDx Bucknell University</div>
-                    <div className="infoItem">Organizers</div>
-                    <div className="infoItem">Previous Talks</div>
-                    <div className="infoItem">Frequently Asked Questions</div>
+                    <Link className="bottomListItemLink" to="/">
+                        <div className="infoItem">TEDx Bucknell University</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="/team">
+                        <div className="infoItem">Organizers</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="/watch">
+                        <div className="infoItem">Previous Talks</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="/faqs">
+                        <div className="infoItem">Frequently Asked Questions</div>
+                    </Link>
                 </div>
             </div>
             <div className="contact">
                 <div className="infoItems">
-                    <div className="infoItem">Email</div>
-                    <div className="infoItem">Phone Number</div>
-                    <div className="infoItem">Contact Form</div>
+                    <Link className="bottomListItemLink" to="nl020@bucknell.edu">
+                        <div className="infoItem">Email</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="">
+                        <div className="infoItem">Phone Number</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="/faqs">
+                        <div className="infoItem">Contact Form</div>
+                    </Link>
                 </div>
             </div>
             <div className="socials">
                 <div className="infoItemsIcons">
-                    {/*Need to add <a> to all of these icons*/}
-                    <div className="infoItemIcon">
-                        <FaFacebook color="white"/>
-                    </div>
-                    <div className="infoItemIcon">
-                        <FaInstagram color="white"/>
-                    </div>
-                    <div className="infoItemIcon">
-                        <FaLinkedin color="white"/>
-                    </div>
-                    <div className="infoItemIcon">
-                        <FaYoutube color="white"/>
-                    </div>
+                    <Link className="infoListItemLink" to="" target="_blank">
+                        <div className="infoItemIcon">
+                            <FaFacebook color="white"/>
+                        </div>
+                    </Link>
+                    <Link className="infoListItemLink" to="https://www.instagram.com/tedxbucknellu/" target="_blank">
+                        <div className="infoItemIcon">
+                            <FaInstagram color="white"/>
+                        </div>
+                    </Link>
+                    <Link className="infoListItemLink" to="https://www.linkedin.com/company/tedxbucknelluniversity/about/" target="_blank">
+                        <div className="infoItemIcon">
+                            <FaLinkedin color="white"/>
+                        </div>
+                    </Link>
+                    <Link className="infoListItemLink" to="" target="_blank">
+                        <div className="infoItemIcon">
+                            <FaYoutube color="white"/>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

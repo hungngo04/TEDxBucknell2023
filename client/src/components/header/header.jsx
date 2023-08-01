@@ -47,7 +47,7 @@ function Header() {
           </li>
    
           <li className="topListItem">
-            <Link className="topListItemLink" to="/tickets">
+            <Link className="topListItemLink" to="https://bucknell.universitytickets.com/" target='_blank'>
               Tickets
             </Link>
           </li>
