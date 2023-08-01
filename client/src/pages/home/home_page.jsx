@@ -17,7 +17,7 @@ function Homepage()    {
           <Speaker></Speaker>
           <ConferenceVenue></ConferenceVenue>
           <ShareStory></ShareStory>
-          {/* <Footer></Footer> */}
+          <Footer></Footer>
       </div>
   );
 }
