@@ -48,6 +48,17 @@
     font-size: 1rem;
 }
 
+.bottomListItemLink    {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.bottomListItemLink :hover    {
+    color: #EB0028;
+}
+
 .information    {
     flex: 1;
 }

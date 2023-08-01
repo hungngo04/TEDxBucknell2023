@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './intro.css'
 import circle from '../../../assets/img/home-page-circle.png'
 
@@ -16,7 +17,9 @@ function Intro() {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam minima quod perspiciatis enim libero unde doloremque, dolorum reprehenderit earum consequatur facere sunt, voluptatum inventore, saepe adipisci laudantium porro numquam. Ut.
             </div>
             <div className="introBtn">
-                <button className='leftBtn'>GET TICKETS</button>
+                <Link to="https://bucknell.universitytickets.com/" target='_blank'>
+                    <button className='leftBtn'>GET TICKETS</button>
+                </Link>
                 <button className='rightBtn'>LEARN MORE</button>
             </div>
         </div>
