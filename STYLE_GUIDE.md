@@ -13,7 +13,7 @@ The TEDx Bucknell University project aims to maintain a consistent and clean cod
 
 ## Code Formatting
 
-- Use **1 tab** for indentation. Do not use spaces.
+- Use **1 tab** or (**4 spaces** in some cases) for indentation. Do not use spaces.
 - Keep lines within **100 characters** to ensure readability.
 - Use **Unix-style line endings** (LF).
 

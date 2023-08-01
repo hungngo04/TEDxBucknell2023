@@ -5,7 +5,7 @@ function PrevTalk() {
   return (
     <div className="prevTalk">
 
-        <div className="title">Our Previous <span className='talks'>Talks</span></div>
+        <div className="talkTitle">Our Previous <span className='talks'>Talks</span></div>
             
             <div className='videoContainer'>
                 <div className='videoItem'>
@@ -29,7 +29,7 @@ function PrevTalk() {
 
             {/* Add a link to the button */}
             <div className="viewMoreButton">
-                <button className='viewMoreVideos'>View More Talks</button>
+                <button className='viewMoreTalks'>View More Talks</button>
             </div>
 
     </div>  

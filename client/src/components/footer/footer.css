@@ -1,83 +1,178 @@
-.bottom{
+.bottom    {
     background-color: #28282f;
-    margin: 0;
-    height: 500px;
+    height: auto;
+    display: grid;
 }
 
-.bottomLogo{
+.bottomLogo    {
     position: relative;
-    left: 50px;
-    top: 30px;
+    left: 5%;
     width: 50%;
 }
 
-.tedLicense{
+.bottomLogo img    {
+    width: 40%;
+    height: auto;
+    margin-top: 6%;
+}
+
+.tedLicense    {
     color: white;
-    margin-top: 50px;
-    margin-left: 65px;
-
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 1rem;
 }
 
-.footerTitles{
-    margin-left: 65px;
-    margin-top: 30px;
+.footerTitles    {
+    margin-left: 6%;
+    margin-top: 3%;
     display: flex;
     flex-direction: row;
-    gap: 150px;
+    gap: 15%;
 }
 
-.footerTitle{ 
-    color: red;
+.footerTitle    { 
+    color: #EB0028;
     flex: 1;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
-.footerBody{
-    margin-left: 65px;
-    margin-top: 20px;
+.footerBody    {
+    margin-left: 6%;
+    margin-top: 2%;
     display: flex;
     flex-direction: row;
-    gap: 150px;
+    gap: 15%;
+    font-size: 1rem;
 }
 
-.information{
-    flex: 1;
-}
-
-.infoItem{
-    margin-top: 20px;
+.bottomListItemLink    {
+    cursor: pointer;
+    text-decoration: none;
     color: white;
+    font-size: 1rem;
 }
 
-.contact{
+.bottomListItemLink :hover    {
+    color: #EB0028;
+}
+
+.information    {
     flex: 1;
 }
 
-.socials{
+.infoItem    {
+    margin-top: 5%;
+    color: white;
+    font-size: 1rem;
+}
+
+.contact    {
     flex: 1;
 }
 
-.infoItemsIcons {
-    margin-top: 10px;
+.socials    {
+    flex: 1;
+}
+
+.infoItemsIcons    {
+    margin-top: 2%;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10%;
+    font-size: 1.5rem;
 }
 
-.infoItemIcon{
+.infoItemIcon    {
     display: flex;
 }
 
-.line{
-    margin-top: 60px;
+.line    {
+    margin-top: 2%;
     width: 80%;
     margin-left: 10%;
 }
 
-.copyright{
+.copyright    {
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1rem;
 }
 
+/* Mobile Phones */
+@media screen and (max-width: 672px)    {
+    .bottomLogo img    {
+        margin-top: 10%;
+        width: 70%;
+    }
 
+    .tedLicense    {
+        font-size: 0.5rem;
+    }
+    
+    .footerTitle    { 
+        font-size: 0.75rem;
+    }
+    
+    .footerBody    {
+        font-size: 0.75rem;
+    }
 
+    .infoItem    {
+        font-size: 0.5rem;
+    }
+
+    .infoItemsIcons    {
+        font-size: 0.75rem;
+    }
+
+    .copyright    {
+        font-size: 0.5rem;
+    }
+}
+
+/* Tablets and Small Laptops */
+@media screen and (min-width: 672px) and (max-width: 990px)    {
+    .bottomLogo img    {
+        margin-top: 10%;
+        width: 40%;
+    }
+
+    .tedLicense    {
+        font-size: 0.75rem;
+    }
+    
+    .footerTitle    { 
+        font-size: 1rem;
+    }
+    
+    .footerBody    {
+        font-size: 0.75rem;
+    }
+
+    .infoItem    {
+        font-size: 0.75rem;
+    }
+
+    .infoItemsIcons    {
+        font-size: 1rem;
+    }
+
+    .copyright    {
+        font-size: 0.75rem;
+    }
+}
+
+/* Desktops and Large Laptops */
+@media screen and (min-width: 990px) and (max-width: 1296px)    {
+
+}
+
+/* Large Desktops and High-resolution Displays */
+@media screen and (min-width: 1296px)    {
+
+}

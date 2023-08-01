@@ -1,54 +1,154 @@
-.speaker{
-    margin-top: 100px;
-    margin-bottom: 30px;
+.speaker    {
+    margin-top: 10%;
     background-color: black;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
-.title{
+.speakerTitle    {
     color: white;
-    font-size: 30px;
-    font-weight: 100;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.speakers{
-    color: #EB0028;
+    font-size: 1.75rem;
     font-weight: 600;
-    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3%;
 }
 
-.speakerContainer{
+.speakers    {
+    color: #EB0028;
+    font-weight: 800;
+    font-size: 1.75rem;
+}
+
+.speakerContainer    {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.speakerItem{
-    margin-right: 70px;
-    margin-left: 70px;
-    margin-bottom: 70px;
+.speakerItem    {
+    width: 15%;
+    margin: 0 2%;
     text-align: center;
     overflow: hidden;
 }
 
-.speakerItem img{
+.speakerItem img    {
     object-fit: cover;
-    width: 150px;
-    height: 200px;
+    width: 100%;
+    height: 75%;
 }
 
-.speakerName{
+.speakerName    {
     color: #EB0028;
+    font-size: 1rem;
     font-weight: 700;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
-.topic{
+.topic    {
     color: white;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 0.8rem;
+    font-weight: 300;
     text-align: center;
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 672px)    {
+    .speakerTitle    {
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+    }
+    
+    .speakers    {
+        font-size: 1.5rem;
+    }
+
+    .speakerItem    {
+        margin-bottom: 3%;
+        width: 25%;
+    }
+
+    .speakerItem img    {
+        width: 100%;
+        height: 75%;
+    }
+
+    .speakerName    {
+        font-size: 0.75rem;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    
+    .topic    {
+        font-size: 0.5rem;
+    }
+}
+
+/* Tablets and Small Laptops */
+@media screen and (min-width: 672px) and (max-width: 990px)    {
+    .speakerTitle    {
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+    }
+    
+    .speakers    {
+        font-size: 1.5rem;
+    }
+
+    .speakerItem    {
+        margin-bottom: 2%;
+        width: 25%;
+    }
+
+    .speakerItem img    {
+        width: 100%;
+        height: 75%;
+    }
+
+    .speakerName    {
+        font-size: 1rem;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    
+    .topic    {
+        font-size: 0.8rem;
+    }
+}
+
+/* Desktops and Large Laptops */
+@media screen and (min-width: 990px) and (max-width: 1296px)    {  
+    .speakerTitle    {
+        font-size: 1.75rem;
+        margin-bottom: 5%;
+    }
+    
+    .speakers    {
+        font-size: 1.75rem;
+    }
+
+    .speakerItem    {
+        width: 15%;
+    }
+
+    .speakerItem img    {
+        width: 100%;
+        height: 75%;
+    }
+
+    .speakerName    {
+        font-size: 1rem;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    
+    .topic    {
+        font-size: 0.8rem;
+    }
+}
+
+/* Large Desktops and High-resolution Displays */
+@media screen and (min-width: 1296px)    {
 }

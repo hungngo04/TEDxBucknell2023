@@ -1,47 +1,204 @@
-.conferenceVenue {
+.conferenceVenue    {
     display: flex;
     flex-direction: row;
+    margin-top: 10%;
 }
 
-.backdrop {
-    width: 400px;
-    height: 300px;
+.backdrop    {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 25px;
 }
 
-.textRight {
+.backdrop img    {
+    max-height: 60%;
+    width: 100%;
+  }
+
+.space     {
+    margin: 2%;
+}
+
+.textRight    {
     display: flex;
     flex-direction: column;
     color: white;
-    gap: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 20%;
+    width: 100%;
+    height: 100%;
 }
 
-.titleConference {
+.titleConference    {
     text-align: left;
     color: #EB0028;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.textTitleLarge {
-    font-size: 35px;
+    font-size: 1rem;
     font-weight: 600;
+    margin-bottom: 5%;
 }
 
-.locationBtn {
+.textTitleLarge    {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+
+.textContent    {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+.textAddress    {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+.locationBtn    {
+    width: 20%;
     outline: none;
     box-shadow: none;
     background-color: black;
     color: white;
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 5px;
+    padding: 0.5rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
     cursor: pointer;
+    margin-top: 2%;
+    font-size: 1rem;
 }
 
+.locationBtn:hover    {
+    background-color: black;
+    color: #EB0028;
+    border: 0.1rem solid #EB0028;
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 672px)    {
+    .textRight    {
+        position: sticky;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 12%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .titleConference    {
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+    }
+    
+    .textTitleLarge    {
+        font-size: 0.75rem;
+        margin-bottom: 5%;
+    }
+    
+    .textContent    {
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+    }
+    
+    .textAddress    {
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+    }
+    
+    .locationBtn    {
+        width: 40%;
+        padding: 0.25rem;
+        border: 0.01rem solid white;
+        border-radius: 0.3rem;
+        margin-top: 1%;
+        font-size: 0.5rem;
+    }
+}
+
+/* Tablets and Small Laptops */
+@media screen and (min-width: 672px) and (max-width: 990px)    {
+    .textRight    {
+        position: sticky;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 15%;
+        width: 100%;
+    }
+    
+    .titleConference    {
+        font-size: 0.75rem;
+        margin-bottom: 5%;
+    }
+    
+    .textTitleLarge    {
+        font-size: 1rem;
+        margin-bottom: 5%;
+    }
+    
+    .textContent    {
+        font-size: 0.75rem;
+        margin-bottom: 5%;
+    }
+    
+    .textAddress    {
+        font-size: 0.75rem;
+        margin-bottom: 5%;
+    }
+    
+    .locationBtn    {
+        width: 35%;
+        padding: 0.5rem;
+        border: 0.01rem solid white;
+        border-radius: 0.3rem;
+        margin-top: 1%;
+        font-size: 0.75rem;
+    }
+}
+
+/* Desktops and Large Laptops */
+@media screen and (min-width: 990px) and (max-width: 1296px)    {  
+    .textRight    {
+        position: sticky;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 15%;
+        width: 100%;
+    }
+    
+    .titleConference    {
+        font-size: 1rem;
+        margin-bottom: 5%;
+    }
+    
+    .textTitleLarge    {
+        font-size: 2rem;
+        margin-bottom: 5%;
+    }
+    
+    .textContent    {
+        font-size: 1rem;
+        margin-bottom: 5%;
+    }
+    
+    .textAddress    {
+        font-size: 1rem;
+        margin-bottom: 5%;
+    }
+    
+    .locationBtn    {
+        width: 35%;
+        padding: 0.5rem;
+        border: 0.01rem solid white;
+        border-radius: 0.3rem;
+        margin-top: 1%;
+        font-size: 1rem;
+    }
+}
+
+/* Large Desktops and High-resolution Displays */
+@media screen and (min-width: 1296px)    {
+    
+}

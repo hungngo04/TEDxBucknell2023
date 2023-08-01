@@ -30,10 +30,6 @@
     font-weight: 100;
 }
 
-.rightBtn    {
-    flex: 1;
-}
-
 .leftBtn    {
     color: white;
     padding: 2%;
@@ -44,15 +40,31 @@
     font-size: 1rem;
 }
 
-.rightBtn    {
+.leftBtn:hover    {
+    background-color: black;
+    border: 0.1rem solid #EB0028;
     color: #EB0028;
+}
+
+.rightBtn    {
+    flex: 1;
+}
+
+.rightBtn    {
+    color: white;
     padding: 2%;
     width: 20%;
-    border: 0.1rem solid #EB0028;
+    border: 0.1rem solid white;
     border-radius: 0.5rem;
     margin-left: 2%;
     background-color: black;
     font-size: 1rem;
+}
+
+.rightBtn:hover    {
+    background-color: black;
+    border: 0.1rem solid #EB0028;
+    color: #EB0028;
 }
 
 .imgRight .container    {
@@ -185,7 +197,7 @@
 /* Large Desktops and High-resolution Displays */
 @media screen and (min-width: 1296px)    {
     .intro    {
-        margin-top: 10%;
+        margin-top: 12%;
     }
 
     .date Span    {

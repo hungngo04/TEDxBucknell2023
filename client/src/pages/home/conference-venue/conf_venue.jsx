@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './conf_venue.css';
 import CampusTheatre01 from '../../../assets/img/campus-theatre-1.png'
 import CampusTheatre02 from '../../../assets/img/campus-theatre-2.png'
@@ -8,6 +9,7 @@ function conferenceVenue() {
     <div className="conferenceVenue">
         <div className="backdrop">
             <img src={CampusTheatre01} alt="Campus Theatre Photo" />
+            <span className="space"></span>
             <img src={CampusTheatre02} alt="Campus Theatre Photo" />
         </div>
         <div className="textRight">
@@ -16,7 +18,9 @@ function conferenceVenue() {
             <div className="textContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget erat in elit commodo vestibulum. Aliquam varius eu odio vel dignissim. Ut id urna vel lacus suscipit interdum quis vitae quam. Phasellus ullamcorper ornare augue. Sed lacus risus</div>
             <div className="textAddress">Address: 413 Market St, Lewisburg, PA 17837</div>
             <div className="textRightBtn">
-                <button className='locationBtn'>View Location</button>
+                <Link to="https://goo.gl/maps/7Hy6AiscUXVx4nEAA" target="_blank">
+                  <button className='locationBtn'>View Location</button>
+                </Link>
             </div>
         </div>
     </div>

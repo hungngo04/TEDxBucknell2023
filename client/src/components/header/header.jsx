@@ -12,7 +12,7 @@ function Header() {
     <nav className="navigation">
       <div className="logo">
         <Link to="/">
-          <img src={logo} alt="TEDx Bucknell University Logo" />
+          <img src={logo} alt="TEDx Bucknell University Logo"/>
         </Link>
       </div>
 
@@ -47,7 +47,7 @@ function Header() {
           </li>
    
           <li className="topListItem">
-            <Link className="topListItemLink" to="/tickets">
+            <Link className="topListItemLink" to="https://bucknell.universitytickets.com/" target='_blank'>
               Tickets
             </Link>
           </li>

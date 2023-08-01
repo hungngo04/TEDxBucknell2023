@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './footer.css'
 import logo from '../../assets/img/tedx-bu-logo-white.png' 
 
@@ -12,10 +13,12 @@ function Footer() {
   return (
     <div className="bottom">
         <div className="bottomLogo">
-            <img src={logo} alt="" />
+            <Link to="/">
+                <img src={logo} alt="TEDx Bucknell University Logo"/>
+            </Link>
         </div>
         <div className="tedLicense">
-            <p>This independent TEDx event is operated under license from TED.</p>
+            This independent TEDx event is operated under license from TED.
         </div>
         <div className="footerTitles">
             <span className='footerTitle'>Information</span>
@@ -25,31 +28,55 @@ function Footer() {
         <div className='footerBody'>
             <div className="information">
                 <div className="infoItems">
-                    <div className="infoItem">TEDxBucknellUniversity 2023</div>
-                    <div className="infoItem">Organizers</div>
-                    <div className="infoItem">Previous Talks</div>
+                    <Link className="bottomListItemLink" to="/">
+                        <div className="infoItem">TEDx Bucknell University</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="/team">
+                        <div className="infoItem">Organizers</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="/watch">
+                        <div className="infoItem">Previous Talks</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="/faqs">
+                        <div className="infoItem">Frequently Asked Questions</div>
+                    </Link>
                 </div>
             </div>
             <div className="contact">
                 <div className="infoItems">
-                    <div className="infoItem">TEDxBucknellUniversity 2023</div>
+                    <Link className="bottomListItemLink" to="nl020@bucknell.edu">
+                        <div className="infoItem">Email</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="">
+                        <div className="infoItem">Phone Number</div>
+                    </Link>
+                    <Link className="bottomListItemLink" to="/faqs">
+                        <div className="infoItem">Contact Form</div>
+                    </Link>
                 </div>
             </div>
             <div className="socials">
                 <div className="infoItemsIcons">
-                    {/*Need to add <a> to all of these icons*/}
-                    <div className="infoItemIcon">
-                        <FaFacebook color="white" fontSize="25px"/>
-                    </div>
-                    <div className="infoItemIcon">
-                        <FaInstagram color="white" fontSize="25px"/>
-                    </div>
-                    <div className="infoItemIcon">
-                        <FaLinkedin color="white" fontSize="25px"/>
-                    </div>
-                    <div className="infoItemIcon">
-                        <FaYoutube color="white" fontSize="25px"/>
-                    </div>
+                    <Link className="infoListItemLink" to="" target="_blank">
+                        <div className="infoItemIcon">
+                            <FaFacebook color="white"/>
+                        </div>
+                    </Link>
+                    <Link className="infoListItemLink" to="https://www.instagram.com/tedxbucknellu/" target="_blank">
+                        <div className="infoItemIcon">
+                            <FaInstagram color="white"/>
+                        </div>
+                    </Link>
+                    <Link className="infoListItemLink" to="https://www.linkedin.com/company/tedxbucknelluniversity/about/" target="_blank">
+                        <div className="infoItemIcon">
+                            <FaLinkedin color="white"/>
+                        </div>
+                    </Link>
+                    <Link className="infoListItemLink" to="" target="_blank">
+                        <div className="infoItemIcon">
+                            <FaYoutube color="white"/>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
