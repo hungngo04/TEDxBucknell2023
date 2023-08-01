@@ -1,80 +1,124 @@
-.About{
+.about{
     background-color: black;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.banner_img{
-    max-width: 100%;
+.aboutBanner img{
+    width: 100%;
 }
 
-.About_TEDxBucknellUniversity{
-    margin-left: 100px;
-    margin-right: 100px;
+.aboutTEDxBucknellUniversity{
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
-.TEDxBU_Title{
+.titleTEDxBucknellUniversity{
     color: white;
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 5%;
 }
 
-.TEDxBU_Body{
+.bodyTEDxBucknellUniversity{
     color: white;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
-.About_TEDx{
-    margin-left: 100px;
-    margin-right: 100px;
+.aboutTEDx{
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
-.TEDx_Title{
+.titleTEDx{
     color: white;
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 5%;
 }
 
-.TEDx_Body{
+.bodyTEDx{
     color: white;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
-.About_TED{
-    margin-left: 100px;
-    margin-right: 100px;
+.aboutTED{
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
-.TED_Title{
+.titleTED{
     color: white;
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 5%;
 }
 
-.TED_Body{
+.bodyTED{
     color: white;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 /* Mobile Phones */
 @media screen and (max-width: 672px)    {
+    .titleTEDxBucknellUniversity    {
+        font-size: 1.5rem;
+    }
 
+    .bodyTEDxBucknellUniversity    {
+        font-size: 0.8rem;
+    }
+
+    .titleTEDx    {
+        font-size: 1.5rem;
+    }
+
+    .bodyTED    {
+        font-size: 0.8rem;
+    }
+
+    .titleTED    {
+        font-size: 1.5rem;
+    }
+
+    .bodyTED    {
+        font-size: 0.8rem;
+    }
 }
 
 /* Tablets and Small Laptops */
 @media screen and (min-width: 672px) and (max-width: 990px)    {
+    .titleTEDxBucknellUniversity    {
+        font-size: 1.5rem;
+    }
 
+    .bodyTEDxBucknellUniversity    {
+        font-size: 0.8rem;
+    }
+
+    .titleTEDx    {
+        font-size: 1.5rem;
+    }
+
+    .bodyTED    {
+        font-size: 0.8rem;
+    }
+
+    .titleTED    {
+        font-size: 1.5rem;
+    }
+
+    .bodyTED    {
+        font-size: 0.8rem;
+    }
 }
 
 /* Desktops and Large Laptops */
