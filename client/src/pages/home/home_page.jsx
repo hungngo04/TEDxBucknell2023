@@ -16,8 +16,8 @@ function Homepage()    {
           <PrevTalk></PrevTalk>
           <Speaker></Speaker>
           <ConferenceVenue></ConferenceVenue>
-          {/* <ShareStory></ShareStory>
-          <Footer></Footer> */}
+          <ShareStory></ShareStory>
+          {/* <Footer></Footer> */}
       </div>
   );
 }
