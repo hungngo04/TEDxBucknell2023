@@ -8,6 +8,7 @@ function conferenceVenue() {
     <div className="conferenceVenue">
         <div className="backdrop">
             <img src={CampusTheatre01} alt="Campus Theatre Photo" />
+            <span className="space"></span>
             <img src={CampusTheatre02} alt="Campus Theatre Photo" />
         </div>
         <div className="textRight">

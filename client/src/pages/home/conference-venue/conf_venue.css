@@ -9,13 +9,16 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 3%;
 }
 
-.backdrop img {
+.backdrop img    {
     max-height: 60%;
     width: 100%;
   }
+
+.space     {
+    margin: 2%;
+}
 
 .textRight    {
     display: flex;
@@ -70,10 +73,6 @@
 
 /* Mobile Phones */
 @media screen and (max-width: 672px)    {
-    .backdrop    {
-        gap: 1%;
-    }
-
     .textRight    {
         position: sticky;
         margin-right: 5%;
@@ -115,10 +114,6 @@
 
 /* Tablets and Small Laptops */
 @media screen and (min-width: 672px) and (max-width: 990px)    {
-    .backdrop    {
-        gap: 2%;
-    }
-
     .textRight    {
         position: sticky;
         margin-right: 5%;
@@ -159,10 +154,6 @@
 
 /* Desktops and Large Laptops */
 @media screen and (min-width: 990px) and (max-width: 1296px)    {  
-    .backdrop    {
-        gap: 3%;
-    }
-
     .textRight    {
         position: sticky;
         margin-right: 5%;

@@ -12,7 +12,7 @@ function Header() {
     <nav className="navigation">
       <div className="logo">
         <Link to="/">
-          <img src={logo} alt="TEDx Bucknell University Logo" />
+          <img src={logo} alt="TEDx Bucknell University Logo"/>
         </Link>
       </div>
 
