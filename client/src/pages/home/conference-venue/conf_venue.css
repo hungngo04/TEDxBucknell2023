@@ -6,7 +6,7 @@
 
 .backdrop    {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 3%;
@@ -25,6 +25,7 @@
     margin-left: 3%;
     margin-top: 20%;
     width: 100%;
+    height: 100%;
 }
 
 .titleConference    {
@@ -79,6 +80,7 @@
         margin-left: 5%;
         margin-top: 12%;
         width: 100%;
+        height: 100%;
     }
     
     .titleConference    {

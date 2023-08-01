@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './share_story.css';
 
-import tedTalks from '../../../assets/img/ted_talks.jpeg';
+import tedTalks from '../../../assets/img/ted-talks.jpg';
 
 function ShareStory()  {
 
