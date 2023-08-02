@@ -1,0 +1,30 @@
+.accordionItem {
+    max-width: auto;
+    margin: 0 10%;
+    color: #EB0028;
+  }
+  
+  .accordionTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #444040;
+  }
+
+  
+  .accordionTitle:hover {
+    background-color: #595454;
+  }
+  
+  .accordionTitle,
+  .accordionContent {
+    padding: 1rem;
+  }
+  
+  .accordionContent {
+    background-color: #4f4848;
+    color: white;
+  }
+
+
