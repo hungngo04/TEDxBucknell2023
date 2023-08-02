@@ -1,0 +1,44 @@
+.meetTeam    {
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.teamSelectionBar    {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.tabButton    {
+    font-size: 1rem;
+    color: white;
+    background-color: #28282f;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 11%;
+}
+
+.tabButton.active    {
+    color: #EB0028;
+}
+
+.tabContent    {
+    width: 15%;
+    display: none;
+    margin-top: 5%;
+    overflow: hidden;
+  }
+  
+  .tabContent.active    {
+    display: block;
+  }
+
+.tabContent img    {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

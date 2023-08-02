@@ -1,4 +1,4 @@
-import Homepage from "./pages/home/home_page.jsx";
+import Home from "./pages/home/home_page.jsx";
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,19 +8,17 @@ import {
   Routes
 } from "react-router-dom";
 import About from "./pages/about/about_page.jsx";
-import Watchpage from "./pages/watch/watch_page.jsx";
+import Watch from "./pages/watch/watch_page.jsx";
+import Team from "./pages/team/team_page.jsx";
 
 function App() {
   return (
-    // Test
-    // <div className="Home_page">
-    //   <Homepage></Homepage>
-    // </div>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Homepage/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/watch" element={<Watchpage/>}/>
+        <Route path="/watch" element={<Watch/>}/>
+        <Route path="/team" element={<Team/>}/>
       </Routes>
     </BrowserRouter>
   );

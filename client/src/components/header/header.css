@@ -26,6 +26,10 @@
     flex-direction: row;
     list-style: none;
 }
+
+.topListLink.active    {
+    color: red;
+}
   
 .topListItemLink    {
     cursor: pointer;
@@ -128,7 +132,7 @@
 /* Tablets and Small Laptops */
 @media screen and (min-width: 672px) and (max-width: 990px)    {
     .logo img    {
-        width: 55%;
+        width: 50%;
         height: auto;
     }
 
@@ -144,7 +148,7 @@
 /* Desktops and Large Laptops */
 @media screen and (min-width: 990px) and (max-width: 1296px)    {
     .logo img    {
-        width: 45%;
+        width: 35%;
         height: auto;
     }
 
