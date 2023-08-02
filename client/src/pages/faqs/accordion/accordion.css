@@ -1,31 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-.accordion {
-    max-width: 600px;
-    margin: 2rem auto;
+.accordionItem {
+    max-width: auto;
+    margin: 0 10%;
+    color: #EB0028;
   }
   
-  .accordion-title {
+  .accordionTitle {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
-    background-color: #21aeca;
+    background-color: #444040;
+  }
+
+  
+  .accordionTitle:hover {
+    background-color: #595454;
   }
   
-  .accordion-title:hover {
-    background-color: #3ab4cc;
-  }
-  
-  .accordion-title,
-  .accordion-content {
+  .accordionTitle,
+  .accordionContent {
     padding: 1rem;
   }
   
-  .accordion-content {
-    background-color: #39b9d2;
+  .accordionContent {
+    background-color: #4f4848;
+    color: white;
   }
+
+
