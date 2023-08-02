@@ -39,6 +39,10 @@
     font-weight: 300;
 }
 
+.nominateSomeoneLink:hover    {
+    color: #EB0028;
+}
+
 /* Mobile Phones */
 @media screen and (max-width: 672px)    {
     .shareTitleText  {

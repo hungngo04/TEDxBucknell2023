@@ -1,65 +1,65 @@
-.about{
+.about    {
     background-color: black;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.aboutBanner img{
+.aboutBanner img    {
     width: 100%;
 }
 
-.aboutTEDxBucknellUniversity{
+.aboutTEDxBucknellUniversity    {
     margin-left: 6%;
     margin-right: 6%;
 }
 
-.titleTEDxBucknellUniversity{
+.titleTEDxBucknellUniversity    {
     color: white;
     font-size: 2rem;
     font-weight: 800;
     margin-top: 5%;
 }
 
-.bodyTEDxBucknellUniversity{
+.bodyTEDxBucknellUniversity    {
     color: white;
     font-size: 1rem;
     font-weight: 400;
     margin-top: 2%;
 }
 
-.aboutTEDx{
+.aboutTEDx    {
     margin-left: 6%;
     margin-right: 6%;
 }
 
-.titleTEDx{
+.titleTEDx    {
     color: white;
     font-size: 2rem;
     font-weight: 800;
     margin-top: 5%;
 }
 
-.bodyTEDx{
+.bodyTEDx    {
     color: white;
     font-size: 1rem;
     font-weight: 400;
     margin-top: 2%;
 }
 
-.aboutTED{
+.aboutTED    {
     margin-left: 6%;
     margin-right: 6%;
 }
 
-.titleTED{
+.titleTED    {
     color: white;
     font-size: 2rem;
     font-weight: 800;
     margin-top: 5%;
 }
 
-.bodyTED{
+.bodyTED    {
     color: white;
     font-size: 1rem;
     font-weight: 400;

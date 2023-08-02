@@ -36,6 +36,7 @@
   
 .topListItemLink:hover    {
     color: #EB0028;
+    font-weight: 600;
 }
 
 .navigation-menu    {

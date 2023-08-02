@@ -59,22 +59,22 @@ function Footer() {
                 <div className="infoItemsIcons">
                     <Link className="infoListItemLink" to="" target="_blank">
                         <div className="infoItemIcon">
-                            <FaFacebook color="white"/>
+                            <FaFacebook className="facebookIcon"/>
                         </div>
                     </Link>
                     <Link className="infoListItemLink" to="https://www.instagram.com/tedxbucknellu/" target="_blank">
                         <div className="infoItemIcon">
-                            <FaInstagram color="white"/>
+                            <FaInstagram className="instagramIcon"/>
                         </div>
                     </Link>
                     <Link className="infoListItemLink" to="https://www.linkedin.com/company/tedxbucknelluniversity/about/" target="_blank">
                         <div className="infoItemIcon">
-                            <FaLinkedin color="white"/>
+                            <FaLinkedin className="linkedinIcon"/>
                         </div>
                     </Link>
                     <Link className="infoListItemLink" to="" target="_blank">
                         <div className="infoItemIcon">
-                            <FaYoutube color="white"/>
+                            <FaYoutube className="youtubeIcon"/>
                         </div>
                     </Link>
                 </div>
