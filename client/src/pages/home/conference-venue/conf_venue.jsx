@@ -19,7 +19,7 @@ function conferenceVenue() {
             <div className="textAddress">Address: 413 Market St, Lewisburg, PA 17837</div>
             <div className="textRightBtn">
                 <Link to="https://goo.gl/maps/7Hy6AiscUXVx4nEAA" target="_blank">
-                  <button className='locationBtn'>View Location</button>
+                  <button className='locationBtn'>VIEW LOCATION</button>
                 </Link>
             </div>
         </div>

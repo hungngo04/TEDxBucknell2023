@@ -29,7 +29,7 @@ function PrevTalk() {
 
             {/* Add a link to the button */}
             <div className="viewMoreButton">
-                <button className='viewMoreTalks'>View More Talks</button>
+                <button className='viewMoreTalks'>VIEW MORE TALKS</button>
             </div>
 
     </div>  
