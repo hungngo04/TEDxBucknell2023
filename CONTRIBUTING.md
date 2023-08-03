@@ -22,7 +22,7 @@ If you have ideas for new features, enhancements, or changes, we'd love to hear 
 
 We appreciate your code contributions to improve TEDx Bucknell University. If you want to submit a code change:
 
-1. Fork the repository to your own GitHub account.
+1. Clone the repository (or) Fork the repository to your own GitHub account.
 2. Create a new branch with a descriptive name (`feature/my-new-feature` or `bugfix/issue-fix`, etc.).
 3. Make your changes and ensure that your code follows the project's coding guidelines.
 4. Test your changes thoroughly to avoid introducing new issues.

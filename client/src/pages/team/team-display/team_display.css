@@ -3,7 +3,7 @@
     font-size: 2rem;
     font-weight: 800;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 10%;
 }
 
 .teamSelectionBar    {
@@ -26,19 +26,44 @@
     color: #EB0028;
 }
 
-.tabContent    {
-    width: 15%;
-    display: none;
+.teamMemberContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
     margin-top: 5%;
-    overflow: hidden;
+    margin-bottom: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+    gap: 2%;
+}
+
+.tabContent {
+    display: none;
   }
   
-  .tabContent.active    {
+.tabContent.active {
     display: block;
-  }
+}
 
 .tabContent img    {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.teamMemberName    {
+    color: #EB0028;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.teamMemberPosition    {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 3%;
 }
