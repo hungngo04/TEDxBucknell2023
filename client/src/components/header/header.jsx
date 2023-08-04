@@ -7,10 +7,8 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 function Header() {
 
   const [isNavExpanded, setIsNavExpanded] = useState(false)
-  // const [activeTab, setActiveTab] = useState('');
 
-  const handleTabClick = (tabName) => {
-    // setActiveTab(tabName);
+  const handleTabClick = () => {
     setIsNavExpanded(false);
   };
 
@@ -36,7 +34,7 @@ function Header() {
                   fontWeight: isActive ? "bold" : "",
                   color: isActive ? "red" : "",
                 }}}
-              onClick={() => handleTabClick('Home')}>
+              onClick={() => handleTabClick()}>
               Home
             </NavLink>
           </li>
@@ -49,7 +47,7 @@ function Header() {
                   fontWeight: isActive ? "bold" : "",
                   color: isActive ? "red" : "",
                 }}}
-              onClick={() => handleTabClick('About')}>
+              onClick={() => handleTabClick()}>
               About
             </NavLink>
           </li>
@@ -62,7 +60,7 @@ function Header() {
                   fontWeight: isActive ? "bold" : "",
                   color: isActive ? "red" : "",
                 }}}
-              onClick={() => handleTabClick('Watch')}>
+              onClick={() => handleTabClick()}>
               Watch
             </NavLink>
           </li>
@@ -75,7 +73,7 @@ function Header() {
                   fontWeight: isActive ? "bold" : "",
                   color: isActive ? "red" : "",
                 }}}
-              onClick={() => handleTabClick('Team')}>
+              onClick={() => handleTabClick()}>
               Team
             </NavLink>
           </li>
@@ -94,7 +92,7 @@ function Header() {
                   fontWeight: isActive ? "bold" : "",
                   color: isActive ? "red" : "",
                 }}}
-              onClick={() => handleTabClick('FAQs')}>
+              onClick={() => handleTabClick()}>
               FAQs
             </NavLink>
           </li>
