@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './header.css';
 import logo from '../../assets/img/tedx-bu-logo-white.png';
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import {GiHamburgerMenu} from 'react-icons/gi'
 
 function Header() {
 
   const [isNavExpanded, setIsNavExpanded] = useState(false)
-  const [activeTab, setActiveTab] = useState('Home');
+  // const [activeTab, setActiveTab] = useState('');
 
   const handleTabClick = (tabName) => {
-    setActiveTab(tabName);
+    // setActiveTab(tabName);
     setIsNavExpanded(false);
   };
 
@@ -28,40 +28,75 @@ function Header() {
 
       <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
         <ul className='topList'>
-          <li className={`topListItem ${activeTab === 'Home' ? 'active' : ''}`}>
-            <Link className="topListItemLink" to="/" onClick={() => handleTabClick('Home')}>
+          <li className='topListItem'>
+            <NavLink to="/"
+              className="topListItemLink" 
+              style={({ isActive }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "red" : "",
+                }}}
+              onClick={() => handleTabClick('Home')}>
               Home
-            </Link>
+            </NavLink>
           </li>
 
-          <li className={`topListItem ${activeTab === 'About' ? 'active' : ''}`}>
-            <Link className="topListItemLink" to="/about" onClick={() => handleTabClick('About')}>
+          <li className='topListItem'>
+            <NavLink to="/about"
+              className="topListItemLink" 
+              style={({ isActive }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "red" : "",
+                }}}
+              onClick={() => handleTabClick('About')}>
               About
-            </Link>
+            </NavLink>
           </li>
         
-          <li className={`topListItem ${activeTab === 'Watch' ? 'active' : ''}`}>
-            <Link className="topListItemLink" to="/watch" onClick={() => handleTabClick('Watch')}>
+          <li className='topListItem'>
+            <NavLink to="/watch"
+              className="topListItemLink" 
+              style={({ isActive }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "red" : "",
+                }}}
+              onClick={() => handleTabClick('Watch')}>
               Watch
-            </Link>
+            </NavLink>
           </li>
   
-          <li className={`topListItem ${activeTab === 'Team' ? 'active' : ''}`}>
-            <Link className="topListItemLink" to="/team" onClick={() => handleTabClick('Team')}>
+          <li className='topListItem'>
+            <NavLink to="/team"
+              className="topListItemLink" 
+              style={({ isActive }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "red" : "",
+                }}}
+              onClick={() => handleTabClick('Team')}>
               Team
-            </Link>
+            </NavLink>
           </li>
    
-          <li className={`topListItem ${activeTab === 'Tickets' ? 'active' : ''}`}>
+          <li className='topListItem'>
             <Link className="topListItemLink" to="https://bucknell.universitytickets.com/" target='_blank'>
               Tickets
             </Link>
           </li>
 
-          <li className={`topListItem ${activeTab === 'FAQs' ? 'active' : ''}`}>
-            <Link className="topListItemLink" to="/faqs" onClick={() => handleTabClick('FAQs')}>
+          <li className='topListItem'>
+            <NavLink to="/faqs"
+              className="topListItemLink" 
+              style={({ isActive }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "red" : "",
+                }}}
+              onClick={() => handleTabClick('FAQs')}>
               FAQs
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>
