@@ -32,7 +32,7 @@ function Header() {
               style={({ isActive }) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isActive ? "red" : "",
+                  color: isActive ? "#EB0028" : "",
                 }}}
               onClick={() => handleTabClick()}>
               Home
@@ -42,10 +42,10 @@ function Header() {
           <li className='topListItem'>
             <NavLink to="/about"
               className="topListItemLink" 
-              style={({ isActive }) => {
+              style={({isActive}) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isActive ? "red" : "",
+                  color: isActive ? "#EB0028" : "",
                 }}}
               onClick={() => handleTabClick()}>
               About
@@ -55,10 +55,10 @@ function Header() {
           <li className='topListItem'>
             <NavLink to="/watch"
               className="topListItemLink" 
-              style={({ isActive }) => {
+              style={({isActive}) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isActive ? "red" : "",
+                  color: isActive ? "#EB0028" : "",
                 }}}
               onClick={() => handleTabClick()}>
               Watch
@@ -68,10 +68,10 @@ function Header() {
           <li className='topListItem'>
             <NavLink to="/team"
               className="topListItemLink" 
-              style={({ isActive }) => {
+              style={({isActive}) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isActive ? "red" : "",
+                  color: isActive ? "#EB0028" : "",
                 }}}
               onClick={() => handleTabClick()}>
               Team
@@ -87,13 +87,26 @@ function Header() {
           <li className='topListItem'>
             <NavLink to="/faqs"
               className="topListItemLink" 
-              style={({ isActive }) => {
+              style={({isActive}) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
-                  color: isActive ? "red" : "",
+                  color: isActive ? "#EB0028" : "",
                 }}}
               onClick={() => handleTabClick()}>
               FAQs
+            </NavLink>
+          </li>
+
+          <li className='topListItem'>
+            <NavLink to="/login"
+              className="topListItemLink" 
+              style={({isActive}) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isActive ? "#EB0028" : "",
+                }}}
+              onClick={() => handleTabClick()}>
+              Log in
             </NavLink>
           </li>
         </ul>
