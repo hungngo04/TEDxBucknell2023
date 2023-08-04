@@ -27,9 +27,6 @@
     list-style: none;
 }
 
-.topListItemLinkactive    {
-    color: red;
-}
   
 .topListItemLink    {
     cursor: pointer;
