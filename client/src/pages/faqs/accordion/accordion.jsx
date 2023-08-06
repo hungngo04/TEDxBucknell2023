@@ -11,6 +11,7 @@ const Accordion = ({ title, content }) => {
         <div className="accordionBtn">{isActive ? '-' : '+'}</div>
       </div>
       {isActive && <div className="accordionContent">{content}</div>}
+      <hr></hr>
     </div>
   )
 }

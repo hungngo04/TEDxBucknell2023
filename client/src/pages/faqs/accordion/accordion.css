@@ -9,13 +9,15 @@
     flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
-    background-color: #444040;
+    font-weight: 500;
+    background-color: black;
+    /* background-color: #444040; */
   }
 
   
-  .accordionTitle:hover {
+  /* .accordionTitle:hover {
     background-color: #595454;
-  }
+  } */
   
   .accordionTitle,
   .accordionContent {
@@ -23,7 +25,7 @@
   }
   
   .accordionContent {
-    background-color: #4f4848;
+    background-color: #161616;
     color: white;
   }
 
