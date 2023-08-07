@@ -1,3 +1,14 @@
+.aboutpage    {
+    background-color: black;
+    color: black;
+}
+
+html, body    {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
 .accordion {
     margin-top: 2%;
     margin-bottom: 10%;
@@ -9,24 +20,4 @@
     font-weight: 800;
     margin-top: 5%;
     margin-left: 10%;
-}
-
-/* Mobile Phones */
-@media screen and (max-width: 672px)    {
-
-}
-
-/* Tablets and Small Laptops */
-@media screen and (min-width: 672px) and (max-width: 990px)    {
-
-}
-
-/* Desktops and Large Laptops */
-@media screen and (min-width: 990px) and (max-width: 1296px)    {  
-
-}
-
-/* Large Desktops and High-resolution Displays */
-@media screen and (min-width: 1296px)    {
-
 }
