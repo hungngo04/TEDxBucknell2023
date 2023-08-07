@@ -1,0 +1,126 @@
+.adminBody    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adminContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.adminText    {
+    display: flex;
+    text-align: center;
+}
+
+.adminTitle    {
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.adminImage    {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+  
+.adminImage img    {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+  
+.adminLoginForm    {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+    flex: 2;
+}
+  
+.email,
+.password,
+.recovery    {
+    width: 60%;
+    height: auto;
+    margin-bottom: 5%;
+}
+  
+.emailText,
+.passwordText   {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #EB0028;
+}
+  
+.emailInput,
+.passwordInput    {
+    width: 80%;
+    height: auto;
+    padding: 2%;
+    border: 0.1rem solid white;
+    border-radius: 1%;
+    font-size: 1rem;
+    margin-top: 5%;
+    color: white;
+    background-color: black;
+}
+
+.rememberMeInput    {
+    margin-right: 2%;
+}
+
+.rememberMeText    {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+  
+.forgetPassword    {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-left: 30%;
+}
+
+.forgetPassword:hover    {
+    color: #EB0028;
+}
+
+.adminLogin    {
+    width: 20%;
+}
+
+.loginButton     {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginButton:hover     {
+    color: #EB0028;
+    border-color: #EB0028;
+}
+
