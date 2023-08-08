@@ -1,32 +1,36 @@
-.accordionItem {
-    max-width: auto;
-    margin: 0 10%;
-    color: #EB0028;
-  }
+.accordionItem    {
+  max-width: auto;
+  margin: 0 10%;
+  color: #EB0028;
+}
   
-  .accordionTitle {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    cursor: pointer;
-    font-weight: 500;
-    background-color: black;
-    /* background-color: #444040; */
+.accordionTitle    {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: black;
+}
+  
+.accordionTitle,
+.accordionContent    {
+  padding: 1rem;
+}
+  
+.accordionContent    {
+  background-color: #28282F;
+  color: white;
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 672px)    {
+  .accordionTitle    {
+    font-size: 0.8rem;
   }
 
-  
-  /* .accordionTitle:hover {
-    background-color: #595454;
-  } */
-  
-  .accordionTitle,
-  .accordionContent {
-    padding: 1rem;
+  .accordionContent     {
+    font-size: 0.8rem;
   }
-  
-  .accordionContent {
-    background-color: #161616;
-    color: white;
-  }
-
-
+}
