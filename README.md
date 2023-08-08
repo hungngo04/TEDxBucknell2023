@@ -40,6 +40,7 @@ We utilize a variety of technologies in our *TEDx Bucknell University* project, 
 - Node.js
 - Express.js
 - MongoDB
+- Axios
 - npm
 - Git
 - GitHub
