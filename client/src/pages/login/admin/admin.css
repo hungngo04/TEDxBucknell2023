@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 
 .adminContainer {
@@ -26,34 +27,31 @@
 }
 
 .adminImage    {
-    flex: 1;
+    flex: 2;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
 }
   
 .adminImage img    {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
 }
   
 .adminLoginForm    {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     margin-left: 5%;
-    flex: 2;
+    margin-right: 5%;;
+    flex: 1;
 }
   
 .email,
 .password,
 .recovery    {
-    width: 60%;
+    width: 80%;
     height: auto;
     margin-bottom: 5%;
 }
@@ -67,7 +65,7 @@
   
 .emailInput,
 .passwordInput    {
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 2%;
     border: 0.1rem solid white;
@@ -80,6 +78,7 @@
 
 .rememberMeInput    {
     margin-right: 2%;
+    margin-left: 5%;
 }
 
 .rememberMeText    {
