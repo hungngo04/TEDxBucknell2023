@@ -2,7 +2,7 @@ import React from 'react'
 import './admin.css'
 
 // Import images
-import bucknell from '../../../assets/img/bucknell-campus.jpg'
+import login from '../../../assets/img/tedx-login.jpg'
 
 function Admin() {
 
@@ -10,7 +10,7 @@ function Admin() {
         <div className='adminBody'>
 
             <div className='adminImage'>
-                <img src={bucknell} alt="Bucknell University"/>
+                <img src={login} alt="Bucknell University"/>
             </div>
 
             <div className='adminLoginForm'>
