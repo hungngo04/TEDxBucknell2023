@@ -35,7 +35,7 @@ function Admin() {
                 </div>
 
                 <div className="adminLogin">
-                    <button className="loginButton">Login</button>
+                    <button className="loginButton">LOGIN</button>
                 </div>
             </div>
         </div>

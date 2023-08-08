@@ -106,7 +106,7 @@ function Header() {
                   color: isActive ? "#EB0028" : "",
                 }}}
               onClick={() => handleTabClick()}>
-              Log in
+              Login
             </NavLink>
           </li>
         </ul>
