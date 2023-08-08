@@ -2,8 +2,20 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './intro.css'
 import circle from '../../../assets/img/home-page-circle.png'
+import axios from "axios"
+import { useState, useEffect } from 'react'
 
 function Intro() {
+    const [intro, setIntro] = useState([]);
+
+    useEffect(() => {
+        const fetchDates = async () => {
+            const res = await axios.get("/home/")
+            setIntro(res.data[0])
+        }
+        fetchDates()
+    }, [])
+
   return (
     <div className="intro">
         <div className="introLeft">
