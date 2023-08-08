@@ -1,12 +1,19 @@
-.accordion {
+.accordion    {
     margin-top: 2%;
     margin-bottom: 10%;
 }
 
-.title {
+.title    {
     color: white;
     font-size: 2rem;
     font-weight: 800;
     margin-top: 5%;
     margin-left: 10%;
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 672px)    {
+    .title    {
+        font-size: 1.5rem;
+    }
 }
