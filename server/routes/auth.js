@@ -3,6 +3,8 @@ const User = require("../models/User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
+// STILL NEED TO FIGURE OUT HOW TO PREVENT ANYONE FROM REGISTERING.
+
 
 //REGISTER
 router.post("/register", async (req, res) => {
