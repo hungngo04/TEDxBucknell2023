@@ -1,5 +1,8 @@
 # TEDx Bucknell University 
 
+![TEDx Bucknell University Website](./client/src/assets/img/TEDx%20Bucknell%20University.png)
+
+## Overview
 A fully dynamic and responsive website for TEDx Bucknell University
 
 ## Team Members :man_technologist:
